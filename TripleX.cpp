@@ -7,14 +7,17 @@ int main()
   std::cout<< std::endl; 
   std::cout << "Enter the correct codes to engage emergency hatches!";
 
-  int a = 4;
-  int b = 2; 
-  int c = 1; 
+  const int a = 4;
+  const int b = 2; 
+  const int c = 1; 
 
-  int sum = a + b + c;  
+  const int sum = a + b + c;  
+  const int product = a * b * c;
 
   std::cout << std::endl; 
-  std::cout << sum; 
+  std::cout << sum << std::endl; 
+  std::cout << product << std::endl;  
+
 
   return 0; 
 }
